@@ -19,7 +19,8 @@ type Inventory struct{
 	Status string
 	Test string
 }
-
+//If you would like to demo use this:
+//./html-template-html -to=villasenor.ariel@gmail.com -first=Ariel -last=Villasenor -user=arielv -status=crashed -subject="Test 593!"
 func constructemail(message string, from string, to string, subject string, html bool) string{
 	var email string
 	if html{
